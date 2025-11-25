@@ -1,0 +1,3165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48ea7e484b75c094f8a8a793a3548930, type: 3}
+  m_Name: LevelData
+  m_EditorClassIdentifier: 
+  placements:
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 1
+    truckpos: 0.499
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 1
+    rangePos: 0.407
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 1
+    ratePos: 0.396
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 1
+    rangePos: 0.414
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 1
+    truckpos: 0.687
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 1
+    ratePos: 0.292
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 1
+    rangePos: 0.446
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 1
+    truckpos: 0.335
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 1
+    rangePos: 0.315
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 1
+    truckpos: 0.608
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 1
+    truckpos: 0.285
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 1
+    rangePos: 0.537
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 1
+    ratePos: 0.315
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 1
+    truckpos: 0.567
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 1
+    rangePos: 0.347
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 1
+    truckpos: 0.564
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 1
+    rangePos: 0.32
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 1
+    truckpos: 0.494
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 1
+    truckpos: 0.312
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 1
+    ratePos: 0.352
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 1
+    rangePos: 0.428
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 1
+    truckpos: 0.376
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 1
+    ratePos: 0.375
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 1
+    truckpos: 0.356
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 1
+    truckpos: 0.614
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 1
+    truckpos: 0.356
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 1
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
+  - type: 0
+    truckPlacement: 0
+    truckpos: 0
+    fireRange: 0
+    rangePos: 0
+    fireRate: 0
+    ratePos: 0
