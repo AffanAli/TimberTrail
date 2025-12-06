@@ -16,7 +16,6 @@ public class PlayerController : MonoBehaviour
     [Header("Player Attributes")]
     [SerializeField] float keyboardMoveSpeed = 5f;
     [SerializeField] float forwardSpeed;
-    [SerializeField] float swipeSpeed;
     [SerializeField] Vector3 swipeRange;
 
     [Header("Climbing Hands Attributes")]
@@ -30,15 +29,13 @@ public class PlayerController : MonoBehaviour
     Transform teleportPos;
     Animator leftAnim;
     Animator rightAnim;
-
-    Vector3 initialPos;
+    
     Vector3 nextRightPos;
     Vector3 nextLeftPos;
     Vector3 startingPos;
     Vector3 deathPos;
     Vector2 swipingRange;
 
-    bool isSwiping;
     bool isRight;
     bool isClimbing;
     bool isDeath;
@@ -67,7 +64,6 @@ public class PlayerController : MonoBehaviour
         isShooting = false;
         isRight = true;
         isClimbing = false;
-        isSwiping = false;
         isDeath = false;
         climbCount = 0;
         isFinalWall = false;
@@ -101,7 +97,6 @@ public class PlayerController : MonoBehaviour
         if (isMoving)
         {
             rb.linearVelocity = new(rb.linearVelocity.x, rb.linearVelocity.y, forwardSpeed);
-            MouseControls();
             KeyboardControls();
         }
         else if(isClimbing)
@@ -118,24 +113,6 @@ public class PlayerController : MonoBehaviour
             }
     }
 
-    private void MouseControls()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            Debug.Log("Mouse button down");
-            initialPos = Input.mousePosition;
-            isSwiping = true;
-        }
-        if (Input.GetMouseButtonUp(0))
-        {
-            Debug.Log("Mouse button up");
-            isSwiping = false;
-        }
-        if (isSwiping)
-        {
-            Moving(Input.mousePosition.x);
-        }
-    }
     private void KeyboardControls()
     {
         float horizontal = Input.GetAxis("Horizontal"); // A/D or Arrow keys
@@ -145,15 +122,6 @@ public class PlayerController : MonoBehaviour
             newX = Mathf.Clamp(newX, swipingRange.x, swipingRange.y);
             rb.MovePosition(new Vector3(newX, rb.position.y, rb.position.z));
         }
-    }
-    private void Moving(float pointX)
-    {
-        Debug.Log("Moving");
-        float x = pointX - initialPos.x;
-        initialPos.x = pointX;
-
-        x = Mathf.Clamp(transform.position.x + x * Time.deltaTime * swipeSpeed, swipingRange.x, swipingRange.y);
-        rb.MovePosition(new(x, rb.position.y, rb.position.z));
     }
     void ClimbFinalWall()
     {
