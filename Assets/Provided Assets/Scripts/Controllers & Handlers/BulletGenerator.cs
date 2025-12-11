@@ -17,7 +17,7 @@ public class BulletGenerator : MonoBehaviour
     float currentRange;
     float currentBulletSpeed;
 
-    PoolController BulletPool => PoolManager.Instance.BulletPool;
+    PoolController TimberBulletPool => PoolManager.Instance.TimberBulletPool;
 
     float Timer;
 
@@ -47,18 +47,18 @@ public class BulletGenerator : MonoBehaviour
     }
 
     void Generate() {
-        GameObject bullet = BulletPool.Get();
-        BulletController controller = bullet.GetComponent<BulletController>();
+        GameObject timberBullet = TimberBulletPool.Get();
+        TimberBulletController controller = timberBullet.GetComponent<TimberBulletController>();
         controller.enabled = true;
         controller.range = currentRange;
         controller.bulletSpeed = currentBulletSpeed;
-        bullet.transform.eulerAngles = Vector3.zero;
-        bullet.transform.SetParent(transform);
-        bullet.transform.position = bulletPoint.position;
-        bullet.transform.SetParent(null);
-        bullet.transform.localScale = new(1f, 0.99999f, 1.25f);
+        timberBullet.transform.eulerAngles = Vector3.zero;
+        timberBullet.transform.SetParent(transform);
+        timberBullet.transform.position = bulletPoint.position;
+        timberBullet.transform.SetParent(null);
+        timberBullet.transform.localScale = new(1f, 0.99999f, 1.25f);
         
-        bullet.SetActive(true);
+        timberBullet.SetActive(true);
         Recoil();
     }
 

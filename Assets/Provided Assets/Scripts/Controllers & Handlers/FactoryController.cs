@@ -77,7 +77,7 @@ public class FactoryController : MonoBehaviour
             {
                 Transform wood = temp.transform.GetChild(0);
                 player.numberOfWoodInFactory++;
-                PoolManager.Instance.BulletPool.Restore(wood.gameObject);
+                PoolManager.Instance.TimberBulletPool.Restore(wood.gameObject);
             }
         }
     }

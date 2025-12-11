@@ -8877,7 +8877,7 @@ MonoBehaviour:
   truckPool: {fileID: 392925863}
   SimpleRoadPool: {fileID: 606405773}
   FactoryRoadPool: {fileID: 1489632613}
-  BulletPool: {fileID: 43257158}
+  TimberBulletPool: {fileID: 43257158}
   GatePool: {fileID: 696149984}
 --- !u!4 &1429388999
 Transform:

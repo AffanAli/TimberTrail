@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BulletController : MonoBehaviour
+public class TimberBulletController : MonoBehaviour
 {
     [HideInInspector] public float bulletSpeed;
     [HideInInspector]  public float range;
@@ -28,7 +28,7 @@ public class BulletController : MonoBehaviour
     {
         if (transform.position.z > distance)
         {
-            PoolManager.Instance.BulletPool.Restore(gameObject);
+            PoolManager.Instance.TimberBulletPool.Restore(gameObject);
         }
     }
     

@@ -8,7 +8,7 @@ public class PoolManager : MonoBehaviour
     public PoolController truckPool;
     public PoolController SimpleRoadPool;
     public PoolController FactoryRoadPool;
-    public PoolController BulletPool;
+    public PoolController TimberBulletPool;
     public PoolController GatePool;
     public static PoolManager Instance;
 

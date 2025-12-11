@@ -137,7 +137,7 @@ public class TruckController : MonoBehaviour
             if (!processing && (numberOfBullets < bulletPoints.Length || currentState == Enums.TruckState.moving))
             {
             processing = true;
-                other.gameObject.GetComponent<BulletController>().enabled = false;
+                other.gameObject.GetComponent<TimberBulletController>().enabled = false;
                 other.transform.SetParent(woodList.transform);
                 other.transform.position = bulletPoints[numberOfBullets].transform.position;
                 numberOfBullets++;
@@ -151,7 +151,7 @@ public class TruckController : MonoBehaviour
             }
             else
             {
-                PoolManager.Instance.BulletPool.Restore(other.gameObject);
+                PoolManager.Instance.TimberBulletPool.Restore(other.gameObject);
             }
         }
     }

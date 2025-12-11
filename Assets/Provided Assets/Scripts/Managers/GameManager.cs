@@ -33,7 +33,7 @@ public class GameManager : MonoBehaviour
         ReferenceManager.Instance.player.ResetPlayer();
         playerData.ResetData();
         environmentGenerator.ResetEnvironment();
-        PoolManager.Instance.BulletPool.RestoreAll();
+        PoolManager.Instance.TimberBulletPool.RestoreAll();
         bulletAttributes.ResetRangeRate();
     }
 

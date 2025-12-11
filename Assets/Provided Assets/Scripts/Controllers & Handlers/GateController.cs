@@ -75,7 +75,7 @@ public class GateController : MonoBehaviour {
             multiplier++;
             mul.text = "+" + multiplier;
             mul.ForceMeshUpdate(true, true);
-            PoolManager.Instance.BulletPool.Restore(other.gameObject);
+            PoolManager.Instance.TimberBulletPool.Restore(other.gameObject);
             Vector3 newSize = new(1.08f, 1.08f, 1);
             LeanTween.scale(gameObject, newSize, 0.2f).setOnComplete(() =>
             {

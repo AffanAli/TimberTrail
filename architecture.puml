@@ -1,0 +1,175 @@
+@startuml TimberTrail Architecture
+title TimberTrail - Core Architecture
+
+skinparam classAttributeIconSize 0
+skinparam linetype ortho
+
+' ===== SINGLETONS =====
+class GameManager <<Singleton>> {
+    - EnvironmentGenerator environmentGenerator
+    - PlayerData playerData
+    - BulletGenerator bulletAttributes
+    + {static} GameManager Instance
+    + int currentLevel
+    + void SelectLevel(int)
+    + void OnClickStartButton()
+    + void GameOver()
+}
+
+class PoolManager <<Singleton>> {
+    + PoolController truckPool
+    + PoolController SimpleRoadPool
+    + PoolController FactoryRoadPool
+    + PoolController TimberBulletPool
+    + PoolController GatePool
+    + {static} PoolManager Instance
+}
+
+class ReferenceManager <<Singleton>> {
+    + {static} ReferenceManager Instance
+    + BulletGenerator gun
+    + PlayerController player
+    + GameObject claimText
+}
+
+' ===== PLAYER & SHOOTING =====
+class PlayerController {
+    - PlayerData player
+    - CameraFollow playerCamera
+    - float forwardSpeed
+    + bool isShooting
+    - bool isClimbing
+    - Enums.HandPosition currentPosition
+    + void Update()
+    + void ResetPlayer()
+    + void OnTriggerEnter(Collider)
+}
+
+class BulletGenerator {
+    - Transform bulletPoint
+    - PlayerController player
+    - float initialBulletSpeed
+    - float currentBulletSpeed
+    - float currentRange
+    - void Generate()
+    + void IncreaseRange(float)
+    + void IncreaseRate(float)
+    + void ResetRangeRate()
+}
+
+class TimberBulletController {
+    + float bulletSpeed
+    + float range
+    - void Update()
+    - void CheckRange()
+}
+
+class CameraFollow {
+    + Transform target
+    + Vector3 offset
+    + float smoothTime
+}
+
+' ===== ENVIRONMENT & LEVEL =====
+class EnvironmentGenerator {
+    + LevelPlacementData[] Level
+    + int currentLevel
+    + void GenerateEnvironment(int)
+    + void RemoveEnvironment()
+}
+
+class GateController {
+    - BulletGenerator generator
+    - int multiplier
+    - Enums.GateState currentState
+    + void changeState(Enums.GateState)
+}
+
+' ===== TRUCK & FACTORY =====
+class TruckController {
+    - GameObject[] bulletPoints
+    - PlayerData player
+    + GameObject woodList
+    - Enums.TruckState currentState
+    - int numberOfBullets
+    + void ChangeState(Enums.TruckState)
+    + void StoreBullet(Collider)
+}
+
+class FactoryController {
+    - PlayerData player
+    - bool isDoorOpen
+    + void TakeWoodsFromTruck(Collision)
+}
+
+' ===== POOLING =====
+class PoolController {
+    + GameObject prefab
+    - int capacity
+    + GameObject Get(GameObject)
+    + void Restore(GameObject)
+    + void RestoreAll()
+}
+
+' ===== DATA =====
+class PlayerData <<ScriptableObject>> {
+    + int numberOfWoodInFactory
+    + int score
+    + int multiplier
+    + void ResetData()
+}
+
+class LevelPlacementData <<ScriptableObject>> {
+    + RoadPlacement[] placements
+}
+
+class Enums {
+    <<enum>> RoadType
+    <<enum>> TruckState
+    <<enum>> HandPosition
+    <<enum>> GateState
+}
+
+' ===== RELATIONSHIPS =====
+
+' GameManager connections
+GameManager --> EnvironmentGenerator
+GameManager --> PlayerData
+GameManager --> BulletGenerator
+GameManager --> ReferenceManager
+
+' ReferenceManager connections
+ReferenceManager --> BulletGenerator
+ReferenceManager --> PlayerController
+
+' Player & Shooting flow
+PlayerController --> PlayerData
+PlayerController --> CameraFollow
+PlayerController --> GameManager
+BulletGenerator --> PlayerController
+BulletGenerator --> PoolManager
+TimberBulletController --> PoolManager
+
+' Environment & Gates
+EnvironmentGenerator --> PoolManager
+EnvironmentGenerator --> LevelPlacementData
+EnvironmentGenerator --> GateController
+GateController --> BulletGenerator
+GateController --> ReferenceManager
+GateController --> PoolManager
+
+' Truck & Factory flow
+TruckController --> PlayerData
+TruckController --> FactoryController
+TruckController --> PoolManager
+TruckController --> BulletController
+FactoryController --> PlayerData
+FactoryController --> PoolManager
+
+' Pool system
+PoolManager --> PoolController
+PoolController --> BulletController
+PoolController --> TruckController
+PoolController --> GateController
+
+@enduml
