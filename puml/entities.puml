@@ -1,0 +1,79 @@
+@startuml TimberTrail Core Entities
+
+' Pre-Implementation Phase - Core Game Entities
+
+entity "Player" as Player {
+  * score : int
+  * woodInFactory : int
+  * multiplier : int
+  --
+  playerState : enum {shooting, climbing}
+}
+
+entity "WoodBullet" as WoodBullet {
+  * speed : float
+  * range : float
+  --
+  Used as projectile and collectible
+}
+
+entity "Truck" as Truck {
+  * capacity : int
+  * currentLoad : int
+  * state : enum {idle, collecting, moving}
+  --
+  Collects wood bullets
+  Delivers to factory
+}
+
+entity "PowerGate" as PowerGate {
+  * multiplier : int
+  * gateType : enum {FireRange, FireRate}
+  --
+  Boosts player attributes
+  Collects passing bullets
+}
+
+entity "Level" as Level {
+  * levelNumber : int
+  * roadSegments[] : RoadPlacement
+  --
+  Defines game layout
+}
+
+entity "RoadSegment" as RoadSegment {
+  * type : enum {simple, factory}
+  * hasTruck : bool
+  * hasGates : bool
+  --
+  Building block of level
+}
+
+entity "FinalWall" as FinalWall {
+  * requiredWood : int
+  * multiplierThresholds[] : int
+  --
+  End game challenge
+  Uses collected wood to climb
+}
+
+note right of Player
+  Core player entity with:
+  - Shooting mechanics
+  - Climbing mechanics
+  - Score tracking
+end note
+
+note right of WoodBullet
+  Dual purpose:
+  - Projectile when shot
+  - Resource for climbing
+end note
+
+note bottom of Level
+  Configuration-driven
+  level design using
+  RoadPlacement data
+end note
+
+@enduml

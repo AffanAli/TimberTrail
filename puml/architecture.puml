@@ -1,5 +1,4 @@
 @startuml TimberTrail Architecture
-title TimberTrail - Core Architecture
 
 skinparam classAttributeIconSize 0
 skinparam linetype ortho

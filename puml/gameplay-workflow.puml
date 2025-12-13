@@ -1,0 +1,75 @@
+@startuml TimberTrail Gameplay Workflow
+
+|Player|
+start
+:Start Game;
+
+|Game System|
+:Generate Road Segments;
+:Place Trucks & Gates;
+
+|Player|
+:Enter Shooting Mode;
+
+repeat
+  :Move Forward;
+  :Shoot Wood Bullets;
+  
+  if (Player passes Gate?) then (yes)
+    :Apply Attribute Boost;
+    note right
+      Fire Range or
+      Fire Rate increase
+    end note
+  endif
+  
+  if (Bullet reaches Truck?) then (yes)
+    |Truck|
+    :Load Bullet;
+    :Increment Load Count;
+    
+    if (Truck Full?) then (yes)
+      :Change to Moving State;
+      :Travel to Factory;
+      
+      |Factory|
+      :Receive Wood Delivery;
+      :Update Player Score;
+      :Add to Wood Inventory;
+    endif
+  endif
+
+repeat while (Reached Final Wall?) is (no)
+->yes;
+
+|Player|
+:Enter Climbing Mode;
+:Face Final Wall;
+
+|Final Wall|
+:Display Multiplier Thresholds;
+
+|Player|
+repeat
+  :Use Wood from Inventory;
+  :Climb One Step;
+  :Decrement Wood Count;
+repeat while (Wood Available AND Not at Top?) is (yes)
+->no;
+
+if (Reached Top?) then (yes)
+  |Game System|
+  :Calculate Final Score;
+  note right
+    Score = baseScore × multiplier
+  end note
+  :Display Victory;
+  stop
+else (no - fell)
+  :Display Game Over;
+  :Show Final Score;
+  stop
+endif
+
+@enduml
+
